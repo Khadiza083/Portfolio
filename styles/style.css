@@ -3,6 +3,10 @@
     font-family: 'open sans';
 }
 
+section {
+    margin-top: 130px;
+}
+
 .primary-button {
     background-color: #FD6E0A;
     border: 0;
@@ -72,14 +76,13 @@ nav ul {
 }
 
 /* Main section */
-main {
+.main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* About section style */
 .about-me {
-    margin-top: 131px;
     background-color: #FFF8F3;
     ;
     border-radius: 10px;
@@ -91,6 +94,7 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 
 .section-desc {
@@ -112,19 +116,102 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
 /* what i do styles */
-.what-i-do{
-    margin-top: 130px;
+.what-i-do {
     margin-bottom: 30px;
     color: #181818;
+}
+
+.what-i-do-desc {
+    margin: 0 110px;
     text-align: center;
 }
-.what-i-do-desc{
-    margin: 0 110px;
-}
-.skill-container{
+
+
+
+.skill-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    text-align: left;
+    gap: 24px;
+    margin-bottom: 130px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+}
+
+.skill-desc {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-desc{
+    color: #757575;
+    font-size: 16px;
+    margin-right: 60px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer section styles */
+.footer-section{
+    background-color: #FFF8F3;;
+}
+.contact{
+    margin-top: 130px;
+    display: flex;
+    gap: 115px;
+}
+.contact-title{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
