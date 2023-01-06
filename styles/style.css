@@ -112,3 +112,19 @@ main {
     font-size: 20px;
     color: #474747;
 }
+/* what i do styles */
+.what-i-do{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
+}
+.what-i-do-desc{
+    margin: 0 110px;
+}
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
